@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+}
+div.main {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+div.bottom {
+    display: flex;
+    flex-direction: row;
+    
+}
+div.up {
+    background-color: white;
+    padding: 5%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+div.left {
+    background-color:  hsl(179, 37%, 45%);
+    width: 50%;
+    padding: 7%;
+    border-bottom-left-radius: 7px;
+}
+div.right {
+    background-color: hsl(179, 66%, 48%);
+    width: 50%;
+    padding: 7%;
+    border-bottom-right-radius: 7px;
+}
+h2.up {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h3.up {
+    color:  hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+p.up {
+    color: rgb(151, 153, 151);
+    font-weight: 200;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+}
+p.right {
+    margin-block-end: 0cm;
+    margin-block-start: 0cm;
+    margin-bottom: 3px;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+
+}
+button {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    height: 45px;
+    border-radius: 7px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+h3.why {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+}
+h3.left {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+}
+span {
+    color: rgba(248, 247, 247, 0.5);
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 100;
+}
+h4.left {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}   
+h3.left2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+@media (max-width: 850px)  {
+    div.main {
+        width: 75%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+
+    }
+    div.bottom {
+        flex-direction: row;
+    }
+    div.left {
+        width: 50%;
+        border-bottom-left-radius: 7px;
+    }
+    div.right {
+        width: 50%;
+        border-bottom-right-radius: 7px;
+    }
+} 
+@media (max-width: 550px) {
+    div.main {
+        width: 65%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+
+    }
+    div.bottom {
+        flex-direction: column;
+    }
+    div.left {
+        width: 86%;
+        border-bottom-left-radius: 0px;
+    }
+    div.right {
+        width: 86%;
+        border-bottom-left-radius: 7px;
+    }
+
+    
+}
